@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" width="760" height="200" role="img" aria-label="Social Web">
+  <title>Social Web</title>
+  <style>
+    .disc { fill: #F6F5F2; }
+    .link { stroke: #0F8B8D; }
+    .node { fill: #0F8B8D; }
+    .word { fill: #1F2933; }
+    .accent { fill: #0F8B8D; }
+    @media (prefers-color-scheme: dark) {
+      .disc { fill: #0F8B8D; }
+      .link { stroke: #F6F5F2; }
+      .node { fill: #F6F5F2; }
+      .word { fill: #F6F5F2; }
+      .accent { fill: #5CC7C9; }
+    }
+  </style>
+  <g transform="translate(20 20) scale(0.3125)">
+    <circle class="disc" cx="256" cy="256" r="256"/>
+    <g class="link" fill="none" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M336 132 Q256 84 176 132"/>
+      <path d="M176 132 L256 256 L336 380"/>
+      <path d="M336 380 Q256 428 176 380"/>
+    </g>
+    <g class="node">
+      <circle cx="336" cy="132" r="30"/>
+      <circle cx="176" cy="132" r="30"/>
+      <circle cx="256" cy="256" r="42"/>
+      <circle cx="336" cy="380" r="30"/>
+      <circle cx="176" cy="380" r="30"/>
+    </g>
+  </g>
+  <text class="word" x="212" y="130" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="88" font-weight="600" letter-spacing="-2">Social <tspan class="accent">Web</tspan></text>
+</svg>
